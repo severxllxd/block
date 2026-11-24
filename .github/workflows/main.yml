@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Unzip project
-        run: unzip block-updated.zip -d project
+        run: unzip BlockPuzzle.zip -d project
 
       - uses: actions/setup-java@v4
         with:
